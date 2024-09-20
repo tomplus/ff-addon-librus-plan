@@ -3,6 +3,11 @@
 Rozszerzenie do Firefoxa, które pozwala w łatwy sposób wydrukować
 plan lekcji z Librus Synergia.
 
+## Instalacja
+
+Ze strony https://github.com/tomplus/ff-addon-librus-plan/releases
+kilknij plik z roszerzeniem .xpi. Firefox zainstaluje dodatek.
+
 ## Sposób użycia
 
 Po instalacji w menu kontekstowym dostępna będzie opcja "Librus - przygotuj do druku".
