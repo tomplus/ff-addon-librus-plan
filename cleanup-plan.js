@@ -31,7 +31,7 @@ if (container.style.display === "none") {
             for (const td of tr.children) {
                 console.log(td.childElementCount)
                 if (td.childElementCount == 1) {
-                    td.textContent = td.innerHTML.replace(/[\s\n]+/g, " ").replace(/.*<b>(.+)<\/b>.*/, "$1");
+                    td.textContent = td.innerHTML.replace(/[\s\n]+/g, " ").replace(/.*<b>(.+)<\/b>.*/, "$1").replace(/^(.*)\(.*/,"$1");
                     td.style = "font-weight: 900"
                 }
             }
